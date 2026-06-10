@@ -1,0 +1,290 @@
+Prompt 1
+
+User:
+
+Problem Statement: Write a 2d graphics editor using * and _.
+
+Write functions to draw a circle, rectangle, line, and triangle.
+You should be able to
+
+add objects to the picture,
+delete objects from the picture, and
+modify objects in the picture.
+
+Use a 2d array of characters to store the picture.
+Write a function to display the picture.
+
+Output Given
+
+Created a C program using:
+char canvas[ROWS][COLS]
+drawRectangle()
+drawLine()
+drawTriangle()
+drawCircle()
+displayCanvas()
+delete functionality using _
+modify functionality by deleting and redrawing
+
+Prompt 2
+
+User:
+
+Rectangle
+
+Sample Input
+Enter top-left row: 2
+Enter top-left column: 5
+Enter width: 10
+Enter height: 4
+
+_____**********
+_____**********
+_____**********
+_____**********
+Line Inputs
+Prompt 3
+
+User:
+
+Line
+
+Sample Input
+Enter x1: 2
+Enter y1: 2
+Enter x2: 10
+Enter y2: 15
+Output
+__*____________
+___*___________
+____*__________
+______*________
+_______*_______
+_________*_____
+___________*___
+Triangle Inputs
+Prompt 4
+
+User:
+
+Triangle
+
+Sample Input
+Enter x1: 5
+Enter y1: 20
+
+Enter x2: 15
+Enter y2: 10
+
+Enter x3: 15
+Enter y3: 30
+Output
+          *
+         * *
+        *   *
+       *     *
+      *       *
+     ***********
+Circle Inputs
+Prompt 5
+
+User:
+
+Circle input
+
+Sample Input
+Enter center row: 10
+Enter center column: 20
+Enter radius: 5
+Output
+       ***
+     **   **
+    *       *
+    *       *
+    *       *
+     **   **
+       ***
+Add Object Example
+Prompt 6
+
+User:
+
+Give inputs
+
+Rectangle Addition
+Choice: 1
+Shape: Rectangle
+
+Row: 2
+Column: 5
+Width: 10
+Height: 4
+Output
+_____**********
+_____**********
+_____**********
+_____**********
+Delete Object Example
+Prompt 7
+
+User:
+
+Delete object
+
+Input
+Choice: Delete Rectangle
+
+Row: 2
+Column: 5
+Width: 10
+Height: 4
+Output
+________________
+________________
+________________
+________________
+Modify Object Example
+Prompt 8
+
+User:
+
+Modify object
+
+Old Circle
+Center = (10,20)
+Radius = 5
+New Circle
+Center = (15,25)
+Radius = 8
+Process
+Delete old circle
+Draw new circle
+Output
+          *****
+       ***     ***
+      **         **
+     *             *
+      **         **
+       ***     ***
+          *****
+Display Picture
+Prompt 9
+
+User:
+
+Output screen
+
+Example Canvas
+__________________________________________________
+
+_____**********___________________________________
+
+_____**********_______________________*___________
+
+_____**********______________________*_*__________
+
+_____**********_____________________*___*_________
+
+_______________________________***********_______
+
+____________________***__________________________
+
+__________________**___**________________________
+
+_________________*_______*_______________________
+
+__________________**___**________________________
+
+____________________***__________________________
+
+__________________________________________________
+GitHub Push Commands
+Prompt 10
+
+User:
+
+To push I want command
+
+Commands
+git init
+
+git add .
+
+git commit -m "2D Graphics Editor Project"
+
+git branch -M main
+
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+git push -u origin main
+
+
+PROMPT 11
+I cannot see RECTANGLE IMAGE :
+"see i scrrolled down i cant see rectangle"
+
+AI RESPONSE:
+The image link line was mistakenly pasted inside the dark gray code box, 
+causing GitHub to read it as text instead of loading the picture. Move 
+the link line below the closing backticks (```) in README.md.
+
+
+ PROMPT:12
+"give with coorect code after doing this and all"
+
+AI RESPONSE:
+Provided the corrected full template for README.md with the image 
+markdown moved outside of the code block, along with standard Git 
+staging, committing, and pushing instructions.
+
+
+
+PROMPT:13
+"![Project Canvas Screenshot](image.png) is it there in this code"
+
+AI RESPONSE:
+Confirmed that the link was successfully appended to the very bottom 
+of the document, cleanly separated from the grey code block structure.
+
+
+
+ PROMPT:14
+(Uploaded screenshot of VS Code showing file cutting off at line 24)
+"is it correct with that project canvas screenshot image .png code"
+
+AI RESPONSE:
+Identified that the file ended abruptly at line 24. Instructed to hit 
+enter, type three backticks (```) to close the code box, and then 
+append the markdown image link directly beneath it.
+
+
+PROMPT:15
+"i want other images like circle triangle and all in that output in my github account"
+
+AI RESPONSE:
+Instructed to run the executable locally, take screenshots of the Circle 
+and Triangle outputs, save them to the repository folder, and provided 
+an expanded README.md layout containing dedicated image asset hooks.
+
+
+ PROMPT:16
+(Uploaded 4 screenshots showing Line, Circle, Triangle, and Erase outputs)
+"i did it now i want to add to my github of readme"
+
+AI RESPONSE:
+Mapped the uploaded screenshots to precise asset file names:
+* Line output     -> line.png
+* Circle output   -> circle.png
+* Triangle output -> triangle.png
+* Erase output    -> erase.png
+
+Provided the final complete README.md layout rendering all 5 preview blocks.
+
+
+PROMPT:17
+"i want to run my main.c code give commands"
+
+AI RESPONSE:
+Provided explicit C compilation and execution terminal command sequence:
+gcc main.c -o editor.exe -lm
+./editor.exe
